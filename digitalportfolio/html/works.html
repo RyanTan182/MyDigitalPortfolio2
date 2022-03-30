@@ -1,0 +1,475 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+			
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<!-- Manually Created CSS -->
+		  <link rel="stylesheet" href="../css/main.css">
+          <link rel="stylesheet" href="../css/works.css">
+	<link rel="stylesheet" href="../css/modal.css">
+    <link rel="stylesheet" href="../css/about.css">
+    <link rel="stylesheet" href="../css/home.css">
+
+	<!--For Bootstrap datepicker-->
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+		integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous">
+	</script>
+	<link href="https://unpkg.com/gijgo@1.9.11/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+	<script src="https://unpkg.com/gijgo@1.9.11/js/gijgo.min.js" type="text/javascript"></script>
+
+	<!--Font Awesome icons -->
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+		  integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"
+	>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
+		  integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous"
+	>
+	<!--Google fonts Icon-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<!-- Lightbox -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+		  integrity="sha256-HAaDW5o2+LelybUhfuk0Zh2Vdk8Y2W2UeKmbaXhalfA=" crossorigin="anonymous" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"
+			integrity="sha256-Y1rRlwTzT5K5hhCBfAFWABD4cU13QGuRN6P5apfWzVs=" crossorigin="anonymous"></script>
+
+	<title>My Works | Ryan Tan</title>
+		<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" style="margin-right: 1.5rem;" href="index.html">Ryan Tan KK</a>
+            <ul class="navbar-nav navbar-brand">
+                    <li class="nav-item">
+                        <a  href="https://www.linkedin.com/in/ryan-tan-kang-khen/">
+                            <img src="../img/linkedin_logo.png" class="logo-portfolio-icons" alt="Linkedin Logo">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a  href="https://github.com/RyanTan182">
+                            <img src="../img/github_logo.png" class="logo-portfolio-icons" alt="Linkedin Logo" > 
+                        </a>
+                    </li>
+                </ul>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+                      aria-expanded="false"
+                      aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                
+                <ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="about_me.html">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="works.html">Works</a>
+					</li>
+				</ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container portfolio-image"> 
+        <div class="works-container">
+            <h1 class="my-works-title">My Works</h1>
+            <div class="works-border">
+            
+            <div class="containers">
+            <div class="float-container">
+            
+              <div class="first-box" id="first-box-modal">
+                  <div class="works-box-text-align-center" style="text-align: center;">
+                        <h2 style="text-align: center;padding:10px">Internship Applications</h2>
+                <p>Developed with VueJS</p>
+                  </div>
+                  
+              </div>
+            
+              <div class="second-box" id="second-box-modal">
+                  <div class="works-box-text-align-center" style="text-align: center;">
+                        <h2 style="text-align: center;padding:10px">AI-based shopping application</h2>
+                <p>Developed with Python, ExpressJS</p>
+                  </div>
+                  
+              </div>
+            
+            </div>
+            
+            <div class="float-container">
+            
+              <div class="third-box" id="third-box-modal">
+                  <div class="works-box-text-align-center" style="text-align: center;">
+                        <h2 style="text-align: center;padding:10px">Sound Store Application</h2>
+                <p>Developed in 2020 with NodeJS and ExpressJS</p>
+                  </div>
+                  
+              </div>
+            
+              <div class="fourth-box" id="fourth-box-modal">
+                  <div class="works-box-text-align-center" style="text-align: center;">
+                        <h2 style="text-align: center;padding:10px">TeenFun Application</h2>
+                <p>Developed Travel Application in 2020 with ASP.NET C#</p>
+                  </div>
+            
+              </div>
+              
+            </div>
+            </div>
+            
+            
+            
+            </div>
+            </div>
+    
+    
+            
+    <!--FIRST BOX ABOUT ELXR APPLICATIONS-->
+    
+    <div id="myModal_first_box" class="modal">
+    
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h1 class="modal-title">Internship Applications</h1>
+          <p class="modal-time"><i class="fas fa-clock"></i> Developed in September 2021 - February 2022</p>
+          <p class="modal-time"><i class="fas fa-book"></i> MODULE GRADE: A</p>
+      <div class="ss-container">
+                      <div class="mySlides fade">
+                          <img src="../img/works_images/elxr/centralsports_frontend/ELXR-CentralSports-Landing-1stPart.jpg" class="pics"/>
+                      </div>
+                      <div class="mySlides fade">
+                          <img src="../img/works_images/elxr/centralsports_frontend/ELXR-CentralSports-Pay.png" class="pics"/>
+                      </div>
+                      <div class="mySlides fade">
+                          <img src="../img/works_images/elxr/mobile/ELXR-mobile-home-page.png" class="pics"/>
+                      </div>
+                      <div class="mySlides fade">
+                          <img src="../img/works_images/elxr/mobile/ELXR-mobile-shop-page.jpg" class="pics"/>
+                      </div>
+                      <div class="mySlides fade">
+                          <img src="../img/works_images/elxr/mobile/ELXR-mobile-rewards.png" class="pics"/>
+                      </div>
+                      <div class="mySlides fade">
+                          <img src="../img/works_images/elxr/mobile/ELXR-mobile-delete-account.png" class="pics"/>
+                      </div>
+                      <div class="mySlides fade">
+                          <img src="../img/works_images/elxr/dashboard/ELXR-Dashboard-Import Events.png" class="pics"/>
+                      </div>
+                      <div class="mySlides fade">
+                          <img src="../img/works_images/elxr/dashboard/ELXR-Dashboard-VOD.png" class="pics"/>
+                      </div>
+                      <div class="mySlides fade">
+                          <img src="../img/works_images/elxr/dashboard/ELXR-Dashboard-Create-VOD.jpg" class="pics"/>
+                      </div>
+                      <div class="mySlides fade">
+                          <img src="../img/works_images/elxr/dashboard/ELXR-Dashboard-VOD-Analytics.png" class="pics"/>
+                      </div>
+                      <div class="mySlides fade">
+                          <img src="../img/works_images/elxr/elxr-logo.png" class="pics"/>
+                      </div>
+                      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                  </div>
+                  
+                  <!--    Putting in the click dots   -->
+                  <div style="text-align:center">
+                      <span class="dot" onclick="currentSlide(1)"></span>
+                      <span class="dot" onclick="currentSlide(2)"></span>
+                      <span class="dot" onclick="currentSlide(3)"></span>
+                      <span class="dot" onclick="currentSlide(4)"></span>
+                      <span class="dot" onclick="currentSlide(5)"></span>
+                      <span class="dot" onclick="currentSlide(6)"></span>
+                      <span class="dot" onclick="currentSlide(7)"></span>
+                      <span class="dot" onclick="currentSlide(8)"></span>
+                      <span class="dot" onclick="currentSlide(9)"></span>
+                      <span class="dot" onclick="currentSlide(10)"></span>
+                      <span class="dot" onclick="currentSlide(11)"></span>
+                  </div>
+      
+          <p class="modal-comment">
+              I was attached to a Singapore startup company called ELXR as part of my 6-month internship back in September 2021. <br>
+              Throughout my internship, my tasks as a Developer Intern were to create new features to their company's applications.
+              </p>
+              <div class="modal-bulleted-points">
+              • ELXR mobile app <br>
+              • ELXR website (www.the-elxr.com) <br>
+              • ELXR dashboard (dashboard.the-elxr.com) <br>
+              • ELXR backend <br><br>
+              </div>
+              <p class="modal-comment">
+                      As such, I have implemented tons of new features for their applications to enhance users' experience with ELXR.<br>
+                      <br>
+                      An instance is creating new frontend pages for their virtual running event on their ELXR website, which still can be found <a href="https://the-elxr.com/centralsports" target="_blank">here</a>! <br> <br>
+                      Besides technical skills that I have obtained from development work, I got the chance to be exposed to work culture skills, like discussing with my colleagues, while developing and improving my core skills like teamwork and prompt communication<br><br>
+                      Overall, from this internship, I have learnt and acquired lots of skills, including the full understanding on the importance of frontend development and backend development, and how they support each other.   
+              </p>
+              
+      
+      </div>
+      
+      </div>
+    
+      
+    <!--FOURTH BOX ABOUT BAKEIN AI APPLICATION-->
+    
+    <div id="myModal_fourth_box" class="modal">
+    
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close4">&times;</span>
+          <h1 class="modal-title">TEENFUN Application</h1>
+          <p class="modal-time"><i class="fas fa-clock"></i> Developed in October 2020 - February 2021</p>
+          <p class="modal-time"><i class="fas fa-book"></i> MODULE GRADE: B</p>
+      <div class="ss-container">
+                      <div class="mySlides4 fade">
+                          <img src="../img/works_images/teenfun/login_page.png" class="pics"/>
+                      </div>
+                      <div class="mySlides4 fade">
+                          <img src="../img/works_images/teenfun/registration_page.png" class="pics"/>
+                      </div>
+                      <div class="mySlides4 fade">
+                          <img src="../img/works_images/teenfun/account_information_page.png" class="pics"/>
+                      </div>
+                      <div class="mySlides4 fade">
+                          <img src="../img/works_images/teenfun/update_account_information_staff.png" class="pics"/>
+                      </div>
+                      <div class="mySlides4 fade">
+                          <img src="../img/works_images/teenfun/change_password_page.png" class="pics"/>
+                      </div>
+                       <div class="mySlides4 fade">
+                          <img src="../img/works_images/teenfun/users_list.png" class="pics"/>
+                      </div>
+                      <div class="mySlides4 fade">
+                          <img src="../img/works_images/teenfun/forget_password_page.png" class="pics"/>
+                      </div>
+                      <div class="mySlides4 fade">
+                          <img src="../img/works_images/teenfun/add_promotions.png" class="pics"/>
+                      </div>
+                      <div class="mySlides4 fade">
+                          <img src="../img/works_images/teenfun/view_promotions_staff.png" class="pics"/>
+                      </div>
+                      <a class="prev" onclick="plusSlides4(-1)">&#10094;</a>
+                      <a class="next" onclick="plusSlides4(1)">&#10095;</a>
+                  </div>
+                  
+                  <!--    Putting in the click dots   -->
+                  <div style="text-align:center">
+                      <span class="dot4" onclick="currentSlide4(1)"></span>
+                      <span class="dot4" onclick="currentSlide4(2)"></span>
+                      <span class="dot4" onclick="currentSlide4(3)"></span>
+                      <span class="dot4" onclick="currentSlide4(4)"></span>
+                      <span class="dot4" onclick="currentSlide4(5)"></span>
+                      <span class="dot4" onclick="currentSlide4(6)"></span>
+                      <span class="dot4" onclick="currentSlide4(7)"></span>
+                      <span class="dot4" onclick="currentSlide4(8)"></span>
+                      <span class="dot4" onclick="currentSlide4(9)"></span>
+      
+                  </div>
+      
+          <p class="modal-comment">
+              As part of a second-year project to develop our own ASP.NET C# Application, our team has planned to develop a travel application for users to book tickets to our Singapore local attractions. <br>
+              And being appointed as the leader again for this project, I got the opportunite to manage and encourage my team members to do the best that they can do. <br><br>
+              I too has a part to play in the development work, as I'm in charge on creating the Account Management features (like Registration,Login,Viewing Account Information,etc.) and Promotions features. <br><br>
+              Overall, I have developed my ASP.NET C# skills and improve on my leadership skills from this project, and I hope I can apply those skills into my future work!
+              </p>
+              
+              
+      
+      </div>
+      
+      </div>
+    
+      
+    <!--SECOND BOX ABOUT BAKEIN AI APPLICATION-->
+    
+    <div id="myModal_second_box" class="modal">
+    
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close2">&times;</span>
+          <h1 class="modal-title">BAKEin AI Application</h1>
+          <p class="modal-time"><i class="fas fa-clock"></i> Developed in May 2021 - August 2021</p>
+          <p class="modal-time"><i class="fas fa-book"></i> MODULE GRADE: B+</p>
+      <div class="ss-container">
+                      <div class="mySlides2 fade">
+                          <img src="../img/works_images/bakein_AI/home_page.jpg" class="pics"/>
+                      </div>
+                      <div class="mySlides2 fade">
+                          <img src="../img/works_images/bakein_AI/AI-based_recommendation_system.jpg" class="pics"/>
+                      </div>
+                      <div class="mySlides2 fade">
+                          <img src="../img/works_images/bakein_AI/AI-based_recommendation_system (2).jpg" class="pics"/>
+                      </div>
+                      <div class="mySlides2 fade">
+                          <img src="../img/works_images/bakein_AI/AI-based_recommendation_system.jpg" class="pics"/>
+                      </div>
+                      <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
+                      <a class="next" onclick="plusSlides2(1)">&#10095;</a>
+                  </div>
+                  
+                  <!--    Putting in the click dots   -->
+                  <div style="text-align:center">
+                      <span class="dot2" onclick="currentSlide2(1)"></span>
+                      <span class="dot2" onclick="currentSlide2(2)"></span>
+                      <span class="dot2" onclick="currentSlide2(3)"></span>
+                      <span class="dot2" onclick="currentSlide2(4)"></span>
+                  </div>
+      
+          <p class="modal-comment">
+              As part of my third-year specialization project in Artificial Intelligence (AI), my team and I were tasked to create our own AI models. <br><br>
+              I decided to create my own AI-based recommendation system based on user's location for our proposed idea of a bakery website.<br><br>
+              With the additional usage of Docker and Microsoft Cloud Azure, I am also able to deploy my own AI model for usage.<br><br>
+              From this AI project, I have taken full interest in AI, and understood on the steps required to create my own AI model. <br>
+               I hope I can work on more AI projects in the future!<br><br>
+              </p>
+      
+      </div>
+      
+      </div>
+    
+    
+      
+    <!--THIRD BOX ABOUT SOUND STORE -->
+    
+    <div id="myModal_third_box" class="modal">
+    
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close3">&times;</span>
+          <h1 class="modal-title">Sound Store Application</h1>
+          <p class="modal-time"><i class="fas fa-clock"></i> Developed in April 2020 - August 2020</p>
+          <p class="modal-time"><i class="fas fa-book"></i> MODULE GRADE: B</p>
+      <div class="ss-container">
+                      <div class="mySlides3 fade">
+                          <img src="../img/works_images/sound_store_nodejs/login_page.jpg" class="pics"/>
+                      </div>
+                      <div class="mySlides3 fade">
+                          <img src="../img/works_images/sound_store_nodejs/google_login_page.jpg" class="pics"/>
+                      </div>
+                      <div class="mySlides3 fade">
+                          <img src="../img/works_images/sound_store_nodejs/registration_page.png" class="pics"/>
+                      </div>
+                      <div class="mySlides3 fade">
+                          <img src="../img/works_images/sound_store_nodejs/account_information_page.png" class="pics"/>
+                      </div>
+                      <div class="mySlides3 fade">
+                          <img src="../img/works_images/sound_store_nodejs/edit_account_information_page.png" class="pics"/>
+                      </div>
+                      <div class="mySlides3 fade">
+                          <img src="../img/works_images/sound_store_nodejs/users_list.png" class="pics"/>
+                      </div>
+                      <div class="mySlides3 fade">
+                          <img src="../img/works_images/sound_store_nodejs/forget_password_page.jpg" class="pics"/>
+                      </div>
+                      <div class="mySlides3 fade">
+                          <img src="../img/works_images/sound_store_nodejs/security_question_page.jpg" class="pics"/>
+                      </div>
+                      <div class="mySlides3 fade">
+                          <img src="../img/works_images/sound_store_nodejs/reset_password_page.jpg" class="pics"/>
+                      </div>
+                      <a class="prev" onclick="plusSlides3(-1)">&#10094;</a>
+                      <a class="next" onclick="plusSlides3(1)">&#10095;</a>
+                  </div>
+                  
+                  <!--    Putting in the click dots   -->
+                  <div style="text-align:center">
+                      <span class="dot3" onclick="currentSlide3(1)"></span>
+                      <span class="dot3" onclick="currentSlide3(2)"></span>
+                      <span class="dot3" onclick="currentSlide3(3)"></span>
+                      <span class="dot3" onclick="currentSlide3(4)"></span>
+                      <span class="dot3" onclick="currentSlide3(5)"></span>
+                      <span class="dot3" onclick="currentSlide3(6)"></span>
+                      <span class="dot3" onclick="currentSlide3(7)"></span>
+                      <span class="dot3" onclick="currentSlide3(8)"></span>
+                      <span class="dot3" onclick="currentSlide3(9)"></span>
+                  </div>
+      
+          <p class="modal-comment">
+              As part of a second-year project to develop our own NodeJS Application, our team has planned to reuse the theme that we did back in first-year of creating our own Sound Store application, allowing users to purchase audio appliances. <br>
+              Additionally, I also took up the opportunity to be the leader for this project, where I got to interact with my teammates, discuss on our progress often, and motivate each other to get it done and good. <br><br>
+              For my part on the development work, I got to work on Account Management features, such as registration of account, login, viewing and updating account information, and even a feature of forget password! <br>
+              I also got the chance to send my first email through the application! <br><br>
+              Overall, I have developed my NodeJS skills, ExpressJS skills and leadership skills from this project! With those skills in hand, I'm able to develop my own front-end application like this website!
+              </p>
+              
+              
+      
+      </div>
+      
+      </div>
+    </div>
+    
+
+
+  <footer class="page-footer font-small unique-color-dark">
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase font-weight-bold footer-title">Contact Me<span class="trippin"></span></h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto footer-underline" style="width: 60px;">
+          <p>
+            <i class="fa fa-envelope"></i> <a href="mailto:kangkhen182@gmail.com">kangkhen182@gmail.com</a>
+          </p>
+          <p>
+            <i class="fa fa-phone"></i> <a href="tel:+6581112210">+65 8111 2210</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+        <!-- Grid column -->
+        <!-- Grid column -->
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto footer-underline" style="width: 60px;">
+          
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+    <!-- Footer Links -->
+  
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center">Created with ❤️ by Ryan Tan Kang Khen! 
+      <p class="text-muted">Made with ExpressJS and Bootstrap CSS</p>
+      <p>Copyright © All rights reserved. </p>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+      <script src="../js/works.js"></script>
+    <script src="../js/works2.js"></script>
+    <script src="../js/works3.js"></script>
+    <script src="../js/works4.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap-confirmation2/dist/bootstrap-confirmation.min.js"></script>
+	<script>
+		$('[data-toggle=confirmation]').confirmation({
+			rootSelector: '[data-toggle=confirmation]',
+		});
+	</script>
+</body>
+</html>

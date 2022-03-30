@@ -1,0 +1,368 @@
+.about-me-section{
+    padding:10px;
+    border:5px solid rgb(241, 56, 56);
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 5%;
+    background-color: black;
+}
+
+.about-me-title,.education-title,.hobbies-title{
+    text-align: center;
+    padding: 30px;
+}
+
+.about-me-image{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+    padding: 50px 0;
+    align-content: center;
+}
+
+.image-profile-picture{
+    width:70%;
+    float: left;
+    border:5px solid white;
+    border-radius: 50%;
+}
+
+.about-me-description{
+  justify-content: center;
+  align-items: center;
+    padding: 50px 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.location{
+    display: inline;
+}
+
+.about-me-buttons{
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.view-resume-button,
+.copy-email-address{
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+
+@media only screen and (max-width: 991px) { 
+	.about-me-image {
+		width: 100%;
+        padding: 20px 0;
+	}
+
+    .about-me-description{
+        text-align: center;
+        width: 90%;
+        padding: 30px 0;
+    }
+
+    .row{
+        justify-content: center;
+    }
+
+    .about-me-buttons{
+        justify-content: center;
+    }
+
+    .view-resume-button,
+.copy-email-address{
+    display: inline-block;
+    justify-content: space-between;
+}
+  }
+
+
+  .skills-section {
+    text-align: center;
+}
+
+hr.to-skills-section {
+    overflow: visible; /* For IE */
+    height: 30px;
+    color: rgb(156, 243, 156);
+    border-color: green;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+  }
+
+
+.skills-title{
+    color: white;
+    text-align: center;
+}
+
+table{
+    display: inline-flex;
+    padding: 1.25rem;
+    table-layout: fixed;
+}
+
+.skills-section td{
+    padding: 30px;
+}
+
+a.circle-skills-icon{
+    box-shadow: 0 0 10px hsl(0deg 0% 100% / 50%);
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255/var(--tw-bg-opacity));
+    border-radius: 9999px;
+    justify-content: center;
+    width: 8rem;
+    height: 8rem;
+    display: flex;
+    position: relative;
+    pointer-events: none;
+    color: inherit;
+    text-decoration: inherit;
+}
+  
+img.skills-profile-picture{
+    position:relative; 
+    top:10px;
+    bottom: 100px;
+    right: 0;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+span.box-sizing-1 {
+    box-sizing: border-box;
+    display: inline-block;
+    overflow: hidden;
+    width: initial;
+    height: initial;
+    background: none;
+    opacity: 1;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    max-width: 100%;
+}
+
+span.box-sizing-2 {
+    box-sizing: border-box;
+    display: block;
+    width: initial;
+    height: initial;
+    background: none;
+    opacity: 1;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    max-width: 100%
+}
+
+@media only screen and (max-width: 991px) { 
+    table{
+        width: 100%;
+        table-layout:fixed;
+        justify-content: center;
+}
+.skills-section tr{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+    
+    .skills-section td{
+        overflow:hidden;
+        padding: 4px;
+        white-space: nowrap;
+        justify-content: center;
+    }
+  }
+
+
+
+  .education-hobbies-container {
+    display: flex;
+}
+
+.education-section,.hobbies-section {
+    flex: 1;
+}  
+
+.education-section:first-child,.hobbies-section:first-child {
+    margin-right: 20px;
+} 
+
+.vl {
+    border-left: 6px solid green;
+    height: auto;
+  }
+
+
+
+
+  .education-container{
+    padding: 1em 0;
+    float: left;
+    width: 100%;
+    height: auto;
+}
+
+  @media screen and (max-width: 640px){
+    .education-container{
+      display: block;
+      width: 100%;
+    }
+  }
+  
+  
+  .education-container .title{
+    color: #1a1a1a;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .content {
+    position: relative;
+    width: 250px;
+    height: 200px;
+    max-width: 400px;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .content .content-overlay {
+    background: rgba(0,0,0,0.7);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+  }
+  
+  .content:hover .content-overlay{
+    opacity: 1;
+  }
+  
+  .content-image{
+    width: 250px;
+    height: 200px;
+    height: auto;
+  }
+  
+  .content-details {
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  
+  .content:hover .content-details{
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+  }
+  
+  .content-details h3{
+    color: #fff;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+  }
+  
+  .content-details p{
+    color: #fff;
+    font-size: 0.9em;
+  }
+  
+  .fadeIn-bottom{
+    top: 80%;
+  }
+
+
+
+  /*Hobbies*/
+
+
+  .row1{
+    margin-top: 30px;
+  }
+  .row2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top:40px;  
+  }
+  .row2 > div:first-child {
+    margin-right: 15px;
+  }
+  .row2 img {
+    display: block;
+    max-width: 100%;
+  }
+
+
+  @media only screen and (max-width: 991px) { 
+    .education-hobbies-container{
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .education-section{
+      float:center; 
+      flex-direction: column;
+      margin-right: 0px;
+      align-content: center;
+    }
+
+    .education-section:first-child,.hobbies-section:first-child{
+      margin-right: 0px;
+    }
+
+    .hobbies-section{
+      float:center; 
+      flex-direction: column;
+    }
+    .row2,.row1{
+      display: contents;
+      margin-top: 0%;
+      justify-content: center;
+    }
+    .change-hidden-text{
+      visibility: visible;
+      text-align: center;
+    }
+  }
+
+
+  @media (min-width: 991px) { 
+    .change-hidden-text{
+      visibility: hidden;
+    }
+  }

@@ -1,0 +1,244 @@
+.my-works-title{
+    text-align: center;
+    padding: 30px;
+}
+
+.works-border{
+    padding:10px;
+    border:5px solid white;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 5%;
+    background-color: black;
+}
+
+.float-container {
+    padding: 20px;
+    display: flow-root;
+}
+
+.first-box {
+    position: relative; 
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-box::before {    
+      content: "";
+      background-repeat: no-repeat;
+    transition: all 1s;
+      background-image: url('../img/works_images/elxr/mobile/ELXR-mobile-home-page.png');
+        background-position: center;
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.50;
+}
+.first-box:hover::before{
+    position: absolute;
+    transform: scale(1.2);
+    background-size: cover;
+}
+.first-box h2,
+.first-box p {
+  position: relative;
+  text-shadow:
+        0.05em 0 black,
+        0 0.05em black,
+        -0.05em 0 black,
+        0 -0.05em black;
+  color: #ffffff;  
+  line-height: 0.9;
+  text-align: center;
+}
+
+.second-box {
+    position: relative; 
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second-box::before {    
+      content: "";
+      background-repeat: no-repeat;
+    transition: all 1s;
+      background-image: url('../img/works_images/bakein_AI/AI-based_recommendation_system (3).jpg');
+        background-position: center;
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.50;
+}
+
+.second-box:hover::before{
+    position: absolute;
+    transform: scale(1.2);
+    background-size: cover;
+}
+
+.second-box h2,
+.second-box p {
+  position: relative;
+  text-shadow:
+        0.05em 0 black,
+        0 0.05em black,
+        -0.05em 0 black,
+        0 -0.05em black;
+  color: #ffffff;  
+  line-height: 0.9;
+  text-align: center;
+}
+
+.third-box {
+    position: relative; 
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+.third-box:hover::before{
+    position: absolute;
+    transform: scale(1.2);
+    background-size: cover;
+}
+
+.third-box::before {    
+      content: "";
+      background-repeat: no-repeat;
+    transition: 0.7s;
+      background-image: url('../img/works_images/sound_store_nodejs/account_information_page.png');
+      background-position: center;
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.50;
+}
+
+.third-box h2,
+.third-box p {
+  position: relative;
+  text-shadow:
+        0.05em 0 black,
+        0 0.05em black,
+        -0.05em 0 black,
+        0 -0.05em black;
+  color: #ffffff;  
+  line-height: 0.9;
+  text-align: center;
+}
+
+.fourth-box {
+    position: relative; 
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fourth-box::before {    
+      content: "";
+      background-image: url('../img/works_images/teenfun/account_information_page.png');
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    transition: all 1s;
+      position: absolute;
+    top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.50;
+}
+
+.fourth-box:hover::before{
+    position: absolute;
+    transform: scale(1.2);
+    background-size: cover;
+}
+
+.fourth-box h2,
+.fourth-box p {
+  position: relative;
+  text-shadow:
+        0.05em 0 black,
+        0 0.05em black,
+        -0.05em 0 black,
+        0 -0.05em black;
+  color: #ffffff;  
+  line-height: 0.9;
+  text-align: center;
+}
+
+.first-box,
+.third-box,
+.fifth-box {
+    width:450px; 
+    float:left; 
+    height: 250px;
+    color: white;
+    border:5px solid lightcoral;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 50px;
+    margin: 50px;
+    text-align: center;
+  }
+  
+  .second-box,
+  .fourth-box,
+  .sixth-box{
+    width:450px; 
+    height: 250px;
+    float:right; 
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    border:5px solid lightcoral;
+    border-radius: 10px;
+    margin: 50px;
+    text-align: center;
+  }
+
+
+@media only screen and (max-width: 1399px) { 
+    .float-container{
+        padding: 0px;
+    }
+    .containers{
+        margin: 5px;
+    }
+    .first-box,
+    .third-box,
+    .fifth-box,
+    .second-box,
+    .fourth-box,
+    .sixth-box{
+        width: 100%;
+      flex-direction: column;
+      justify-content: center;
+      margin: auto;
+      margin-top:30px
+    } 
+  }
